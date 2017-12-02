@@ -1,1 +1,15 @@
-version : "v2.1"
+- version : "v2.1"
+- this is a gateway program about iot device in Qt language for connecting server. function: reconnect to server when interrupting by various problems receive messages and send messages with server read serrial message and send serial messages from zigbee coordinater through serial line
+- 协调器：0x00 
+- 温湿度光照：0x02 
+- 烟雾：0x04
+- 热释电红外: 0x05 
+- 触摸：0x07 
+- 继电器1:0x0a 
+- 红外线：0x0f 
+- 窗帘：0x10 
+- 继电器2(lock):0x12 
+- RFID：0x15
+- 电机：0x06 
+- 超声波：0x08 
+- PWM：0x09
